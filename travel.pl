@@ -42,4 +42,4 @@ just_go(S,E) :- byPlane(S,E).
 % Maching
 
 travel(S,E, go(S, E)) :- just_go(S,E).
-travel(S,E, go(S, M, R)) :- just_go(S,M), travel(M,E,R).
+travel(S,E, go(S, M, P)) :- just_go(S,M), travel(M,E,P).

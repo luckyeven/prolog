@@ -1,13 +1,13 @@
 Prolog Presentation  
 
 ```Person 1```
-# Let Prolog Guide You
+# Trip Planning with Prolog
 
 The best way to learn a new language is to use it. So today, we would like to talk about something you can do with prolog in the real life. 
 
 Planning a trip can sometimes be a difficult task. balabala....
 
-## So, What ths is Prolog.
+## So, What is Prolog.
 * Declarative Programming
 * How is it different from other languages like python. 
 
@@ -85,12 +85,12 @@ We want to find the path between two cities.
 We want to find the path `P`  from  `S` to `E`.
 
 1. If we can directly go from `S` to `E`, then `P` will simply be `go(S,E)`
-2. If there is another city  `M` , that we know we can directly go from `S` to `M` , then `M` to `E`. The path between `S` and `E` will be `go(S,M,R)`.
+2. If there is another city  `M` , that we know we can directly go from `S` to `M` , then `M` to `E`. The path between `S` and `E` will be `go(S,M,P)`.
 
 
 ```Prolog
 travel(S,E, go(S, E)) :- just_go(S,E).
-travel(S,E, go(S, M, R)) :- just_go(S,M), travel(M,E,R).
+travel(S,E, go(S, M, P)) :- just_go(S,M), travel(M,E,R).
 ```
 
 Now, Prolog can tell us how to go from Ottawa to Tokyo.
