@@ -90,7 +90,7 @@ We want to find the path `P`  from  `S` to `E`.
 
 ```Prolog
 travel(S,E, go(S, E)) :- just_go(S,E).
-travel(S,E, go(S, M, P)) :- just_go(S,M), travel(M,E,R).
+travel(S,E, go(S, M, P)) :- just_go(S,M), travel(M,E,P).
 ```
 
 Now, Prolog can tell us how to go from Ottawa to Tokyo.
