@@ -1,6 +1,7 @@
 Prolog Presentation  
+_Feel free to make contribute._ 
 
-```Person 1```
+```Person 1 about 2 minutes```
 # Trip Planning with Prolog
 
 The best way to learn a new language is to use it. So today, we would like to talk about something you can do with prolog in the real life. 
@@ -15,7 +16,7 @@ Planning a trip can sometimes be a difficult task. balabala....
 balbalab...
 
 (Handover to next person phrases)  
-`Person 2`
+`Person 2 about 2 minutes`
 ### Let's get the ball rolling
 
 (We can talk about Fact, atomic  etc)
@@ -52,7 +53,7 @@ Now, we already have some knowledge base, next we want to find if two city is re
 
 (Handover to next person phrases)
 
-`Person 3`
+`Person 3 about 2.5 minutes`
 ### Can I travel from Ottawa to Toronto?
 
 To solve this question, someone here may already has an idea in your mind.  We can ask prolog to do if for us, but before it, we need to set up our rules.
@@ -78,7 +79,7 @@ Now we can easily check whether two city are reachable or not with prolog, but w
 
 We want to find the path between two cities.
 (Handover to next person phrases)  
-`Person 4`
+`Person 4 about 3.5 minutes`
 
 ### Prolog, I am in Ottawa, and want to visit Tokyo, tell me the path.
 
