@@ -87,6 +87,7 @@ We want to find the path `P`  from  `S` to `E`.
 1. If we can directly go from `S` to `E`, then `P` will simply be `go(S,E)`
 2. If there is another city  `M` , that we know we can directly go from `S` to `M` , then `M` to `E`. The path between `S` and `E` will be `go(S,M,P)`.
 
+(talk about matching and structure)
 
 ```Prolog
 travel(S,E, go(S, E)) :- just_go(S,E).
